@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
+
+    <!-- Para hacer que cargue mas rapido la hoja de estilos -->
+    <link rel = "preload" href ="css/styles.css" as = "styles">
+    
+    <!-- La referencia para cargar la hoja de estilos --> 
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <h1>Luis Carrasco Freelancer</h1>
+        <h1>Luis Garcia Carrasco <span>Freelancer</span> </h1>
     </header>
 
     <nav>
@@ -18,7 +25,7 @@
     </nav>
 
     <!-- <img src="img/hero.jpg"> -->
-    
+
     <section>
         <h2>Diseño y Desarrollo Web Freelancer</h2>
 
@@ -89,6 +96,36 @@
 
     <section>
         <h2>Contacto</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Contáctanos llenando todos los campos</legend>
+
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Nombre(s)">
+                    </div>
+
+                    <div>
+                        <label>Teléfono</label>
+                        <input type="tel" placeholder="Teléfono">
+                    </div>
+
+                    <div>
+                        <label>Correo de contacto</label>
+                        <input type="email" placeholder="E-mail">
+                    </div>
+
+                    <div>
+                        <label>Mensaje</label>
+                        <textarea></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
     </section>
 
     <footer>
